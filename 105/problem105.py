@@ -2,6 +2,7 @@
 
 import sys
 sys.path.insert(0, "../103")
+# pylint:disable=import-error
 from problem103 import is_special
 
 def main():
@@ -18,6 +19,7 @@ def main():
     print acc
 
 def test():
+    """Testing function"""
     print is_special([81, 88, 75, 42, 87, 84, 86, 65])
     print is_special([157, 150, 164, 119, 79, 159, 161, 139, 158])
 
