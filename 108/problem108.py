@@ -8,9 +8,9 @@ MAX = 2000
 
 def main():
     """Main"""
-    Diophantine.compute()
+    # Diophantine.compute()
     Diophantine.brute()
-    test()
+    # test()
 
 
 #pylint:disable=invalid-name
